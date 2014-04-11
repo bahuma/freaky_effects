@@ -1,0 +1,1 @@
+@-webkit-keyframes divrotator{    0% {        -webkit-transform: rotate(0);    }    100% {        -webkit-transform: rotate(-360deg);    }}div {    -webkit-animation: divrotator 5s cubic-bezier(.91,.02,.02,.99) infinite;}
