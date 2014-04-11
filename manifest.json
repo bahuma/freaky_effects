@@ -1,16 +1,17 @@
 {
   "manifest_version": 2,
 
-  "name": "LSD-Mode",
-  "description": "Turns your Browser in LSD-Mode",
-  "version": "1.1",
+  "name": "Freaky Effects",
+  "description": "Add Freaky Effects to your Websites",
+  "version": "1.3",
 
   "permissions": [
     "<all_urls>",
 	"activeTab"
   ],
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_icon": "icon.png",
+	"default_popup": "popup.html"
   },
   "background" : {
     "scripts" : ["background.js"]
