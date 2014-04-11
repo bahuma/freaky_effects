@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "LSD-Mode",
+  "description": "Turns your Browser in LSD-Mode",
+  "version": "1.1",
+
+  "permissions": [
+    "<all_urls>",
+	"activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background" : {
+    "scripts" : ["background.js"]
+  }
+}

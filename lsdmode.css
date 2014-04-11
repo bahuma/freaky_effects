@@ -1,0 +1,13 @@
+@-webkit-keyframes lsdmode {
+    0% {
+        -webkit-filter: hue-rotate(0);
+    }
+    100%{
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+body{
+    -webkit-animation: lsdmode 2s linear infinite;
+    -webkit-filter: hue-rotate(0);
+}
