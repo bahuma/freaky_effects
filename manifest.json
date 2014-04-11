@@ -3,7 +3,7 @@
 
   "name": "Freaky Effects",
   "description": "Add Freaky Effects to Websites",
-  "version": "1.5",
+  "version": "1.6",
   
   "icons": { 
 	"16": "images/app_icon_16.png",
@@ -22,9 +22,5 @@
       "38": "images/app_icon_38.png"
     },
 	"default_popup": "popup.html"
-  },
-  
-  "background" : {
-    "scripts" : ["background.js"]
   }
 }
