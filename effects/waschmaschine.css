@@ -1,0 +1,11 @@
+@-webkit-keyframes waschmaschine{
+    0% {
+        -webkit-transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+html {
+    -webkit-animation: waschmaschine 3s linear infinite;
+}
